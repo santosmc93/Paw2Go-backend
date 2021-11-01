@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/AllJPA" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/AllJPA" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/paw2go_jpa/Admin" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/paw2go_jpa/Admin" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/paw2go_jpa/JWT/AdminJWT" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/paw2go_jpa/JWT/AdminJWT" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/paw2go_jpa/JWT/Products-JWTprotected" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/paw2go_jpa/JWT/Products-JWTprotected" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/paw2go_jpa/JWT/UsersJWT" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/paw2go_jpa/JWT/UsersJWT" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/paw2go_jpa/Products" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/paw2go_jpa/Products" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/paw2go_jpa/UsersPaw2go" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/paw2go_jpa/UsersPaw2go" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

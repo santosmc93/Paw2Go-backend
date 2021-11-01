@@ -5,12 +5,10 @@ import javax.persistence.*;
 @Entity
 public class Admin {
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id_admin;
     @Column
     private String admin_username;
-    @Column
-    private String admin_name;
     @Column
     private String admin_password;
     @Column
@@ -35,14 +33,6 @@ public class Admin {
         this.admin_username = admin_username;
     }
 
-    public String getAdmin_name() {
-        return admin_name;
-    }
-
-    public void setAdmin_name(String admin_name) {
-        this.admin_name = admin_name;
-    }
-
     public String getAdmin_password() {
         return admin_password;
     }
@@ -58,6 +48,4 @@ public class Admin {
     public void setAdmin_email(String admin_email) {
         this.admin_email = admin_email;
     }
-
-
 }

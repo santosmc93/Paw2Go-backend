@@ -1,14 +1,13 @@
 package com.paw2go.adminsusers.admin;
-
 import javax.persistence.*;
 
 @Entity
 public class Admin {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private Integer id_admin;
     @Column
-    private String admin_username;
+    private String adminUsername;
     @Column
     private String admin_password;
     @Column
@@ -26,11 +25,11 @@ public class Admin {
     }
 
     public String getAdmin_username() {
-        return admin_username;
+        return adminUsername;
     }
 
-    public void setAdmin_username(String admin_username) {
-        this.admin_username = admin_username;
+    public void setAdmin_username(String adminUsername) {
+        this.adminUsername = adminUsername;
     }
 
     public String getAdmin_password() {
@@ -48,4 +47,6 @@ public class Admin {
     public void setAdmin_email(String admin_email) {
         this.admin_email = admin_email;
     }
+
+
 }

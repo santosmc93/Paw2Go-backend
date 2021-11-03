@@ -1,13 +1,12 @@
 package com.paw2go.adminsusers.users;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 
 @Entity
 public class Users {
     @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private Integer id_users;
     @Column
     private String full_name;
@@ -16,7 +15,7 @@ public class Users {
     @Column
     private String password;
     @Column
-    private String user_name;
+    private String userName;
 
 
     //Getters and setters
@@ -54,11 +53,11 @@ public class Users {
         this.password = password;
     }
 
-    public String getUser_name() {
-        return user_name;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUser_name(String user_name) {
-        this.user_name = user_name;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 }

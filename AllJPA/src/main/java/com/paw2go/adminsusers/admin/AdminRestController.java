@@ -20,17 +20,20 @@ public class AdminRestController {
     public void add(@RequestBody Admin admin){
         adminRepository.save(admin);
     }
+
     @CrossOrigin(origins = "*", methods = {RequestMethod.GET})
     @GetMapping ("/display") //localhost:8080/admin/display
     public  List<Admin>display(){
         return adminRepository.findAll();
     }
+
     @CrossOrigin(origins = "*", methods = {RequestMethod.GET})
     @GetMapping( "/display/{adminusername}" ) //http://localhost:8080/admin/display/id
     public Admin selectiveDisplay(@PathVariable("adminusername") String adminUsername)
     {
         return adminRepository.findByAdminUsername(adminUsername);
     }
+
     @CrossOrigin(origins = "*", methods = {RequestMethod.DELETE})
     @DeleteMapping("/delete/{id}") //localhost:8080/admin/delete/id
     public void remove(@PathVariable("id") Integer id_admin){
